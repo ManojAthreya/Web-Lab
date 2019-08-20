@@ -3,17 +3,22 @@
 		<title>My Calculator</title>
 			<style>
 				input {
-				background-color: Black;
-				border : none;
-				color: white;
+				background-color: white;
+				border: 2px solid red;
+				color: black;
 				width:100%;
 				padding:15px 32px;
 				text-align:center;
 				font-size:15px;
 				}
+				input:hover{
+									background-color: red;
+									color: black;
+				}
 			</style>
 	</head>
 	<body>
+	<center>
 		<h1>Simple Calculator</h1>
 				<form name="calculator">
 					<table>
@@ -46,5 +51,6 @@
 						<td ><input type= "button" value="3" onclick="calculator.display.value += '3' "></td>
 						<td ><input type= "button" value="+" onclick="calculator.display.value += '+' "></td>
 					</tr>
+			</center>
 	</body>
 </html>
