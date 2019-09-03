@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<students>
+<h1>Student List</h1>
+<student>
+<usn>USN: 4VV16CS001</usn>
+<name>Name: Abhilash</name>
+<clg>College: VVCE</clg>
+<branch>Branch: CSE</branch>
+<yoj>Year of joining: 2016</yoj>
+<eid>Email-id: abhilash@gmail.com</eid>
+</student>
+<student>
+<usn>USN: 4VV16CS002</usn>
+<name>Name: Abhi</name>
+<clg>College: VVCE</clg>
+<branch>Branch: CSE</branch>
+<yoj>Year of joining: 2016</yoj>
+<eid>Email-id: abhi@gmail.com</eid>
+</student>
+<student>
+<usn>USN: 4VV16CS055</usn>
+<name>Name: Manoj Athreya A</name>
+<clg>College: VVCE</clg>
+<branch>Branch: CSE</branch>
+<yoj>Year of joining: 2016</yoj>
+<eid>Email-id: manoj@gmail.com</eid>
+</student>
+</students>
