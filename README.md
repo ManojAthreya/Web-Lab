@@ -11,4 +11,4 @@ Program 7: PHP program to display current time using digital clock.
 Program 8: 
 Program 9:
 
-https://manojathreya.github.io/tedxvvce/
+ https://manojathreya.github.io/Web-Lab/.
