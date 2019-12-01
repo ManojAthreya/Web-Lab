@@ -10,7 +10,7 @@ var font = 0, loading;
  }
  function incr() {
  font = font + 1;
- display.innerHTML = "Vidyavardhaka : " + font + "pt";
+ display.innerHTML = "Text-Growing : " + font + "pt";
  display.style.fontSize = font + "pt";
  if (font > 50) {
  window.clearTimeout(loading);
@@ -20,7 +20,7 @@ var font = 0, loading;
  }
  function decr() {
  font = font - 1;
- display.innerHTML = "Vidyavardhaka : " + font + "pt";
+ display.innerHTML = "Text-Shrinking : " + font + "pt";
  display.style.fontSize = font + "pt";
  if (font == 5) {
  window.clearTimeout(loading);

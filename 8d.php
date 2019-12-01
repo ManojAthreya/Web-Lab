@@ -1,19 +1,30 @@
 <?php  
-$a1 = Array('0' => Array('0' => 1,'1' => 2),'1' => Array('0' => 4,'1' => 5)); 
- 
- 
-$a2 = Array('0' => Array('0' => 1,'1' => 2),'1' => Array('0' => 4,'1' => 5)); 
- 
-$result = array(); 
-for($i=0; $i<=1; $i++) { 
-for($j=0; $j<=1; $j++) { 
-$result[$i][$j] = $a1[$i][$j] + $a2[$i][$j]; 
-} 
-} 
-echo "<p> Matrix one </p>"; 
-echo "<pre/>";print_r($a1); 
-echo "<p> Matrix Two</p>"; 
-echo "<pre/>";print_r($a2); 
-echo "<p> Matrix Addition</p>"; 
-echo "<pre/>";print_r($result); 
-?> 
+$arr1=array(
+    array(3,2,3),
+    array(4,2,3),
+    array(1,5,3)
+);
+$arr2=array(
+    array(1,1,3),
+    array(2,2,3),
+    array(3,2,3)
+);
+$result=array();
+for($i=0;$i<3;$i++){
+    echo "<br>";
+    for($j=0;$j<3;$j++){
+        $result[$i][$j]=0;
+        for($k=0;$k<3;$k++){
+            $result[$i][$j]=$result[$i][$j]+($arr1[$i][$k]*$arr2[$k][$j]);
+        }
+    }
+}
+
+echo "<h3>Multiplication of 2 matrices</h3>";
+for($i=0;$i<3;$i++){
+    echo "<br>";
+    for($j=0;$j<3;$j++){
+        echo " ".$result[$i][$j];
+    }
+}
+?>
